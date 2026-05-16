@@ -1,4 +1,5 @@
 row_id,A_source,B_source,direct_answer,swapped_answer,order_influenced_decision,chosen_source_direct,chosen_source_reversed,normal1_final_answer,swapped_final_answer,normal2_final_answer,chosen_source_normal1,chosen_source_swapped,chosen_source_normal2,self_consistent,A_votes,B_votes
+17,winning_human,losing_human,2,2,Yes,losing_human,winning_human,API_ERROR,API_ERROR,API_ERROR,Error,Error,Error,Error,1,1
 17,winning_human,losing_generate_claude,2,2,Yes,losing_generate_claude,winning_human, 2, 1, 2,losing_generate_claude,losing_generate_claude,losing_generate_claude,Yes,1,4
 17,winning_human,losing_generate_gemini,2,2,Yes,losing_generate_gemini,winning_human, 2, 1, 2,losing_generate_gemini,losing_generate_gemini,losing_generate_gemini,Yes,1,4
 17,winning_human,losing_generate_gpt4omini,2,2,Yes,losing_generate_gpt4omini,winning_human, 2, 1, 2,losing_generate_gpt4omini,losing_generate_gpt4omini,losing_generate_gpt4omini,Yes,1,4
@@ -103,6 +104,7 @@ Abstract 2 is better written",losing_paraphrase_llama,losing_text,losing_paraphr
 (Answer 2 is", 2," 2
 
 (Answer 2 is",losing_paraphrase_qwen,losing_text,losing_paraphrase_qwen,Yes,1,3
+18,winning_human,losing_human,1,2,No,winning_human,winning_human,API_ERROR,API_ERROR,API_ERROR,Error,Error,Error,Error,2,0
 18,winning_human,losing_generate_claude,2,2,Yes,losing_generate_claude,winning_human, 2, 1, 2,losing_generate_claude,losing_generate_claude,losing_generate_claude,Yes,1,4
 18,winning_human,losing_generate_gemini,2,2,Yes,losing_generate_gemini,winning_human, 1, 1, 1,winning_text,losing_generate_gemini,winning_text,Yes,1,2
 18,winning_human,losing_generate_gpt4omini,2,2,Yes,losing_generate_gpt4omini,winning_human, 1 is better written. The second abstract seems, 2, 1 is better written. The second abstract seems,winning_text,winning_text,winning_text,Yes,1,1
@@ -201,6 +203,7 @@ Abstract 2 is better written",losing_paraphrase_llama,losing_text,losing_paraphr
 18,losing_human,losing_paraphrase_mistral,2,2,Yes,losing_paraphrase_mistral,losing_human," Based on the criteria of being better written, more", 1," Based on the criteria of being better written, more",Error,losing_paraphrase_mistral,Error,Error,1,2
 18,losing_human,losing_paraphrase_qwen,2,2,Yes,losing_paraphrase_qwen,losing_human, Both abstracts convey the same basic information and findings," 2
 Originality, structure, clarity and", Both abstracts convey the same basic information and findings,Error,losing_text,Error,Error,1,1
+19,winning_human,losing_human,2,2,Yes,losing_human,winning_human,API_ERROR,API_ERROR,API_ERROR,Error,Error,Error,Error,1,1
 19,winning_human,losing_generate_claude,2,2,Yes,losing_generate_claude,winning_human," 2
 
 Abstract 2 is better written", 1 is better written. It is more conc," 2
@@ -319,6 +322,7 @@ Abstract 2 is better written"," 2
 Abstract 2 is better written"," 2
 
 Abstract 2 is better written",losing_paraphrase_qwen,losing_text,losing_paraphrase_qwen,Yes,1,3
+20,winning_human,losing_human,1,2,No,winning_human,winning_human,API_ERROR,API_ERROR,API_ERROR,Error,Error,Error,Error,2,0
 20,winning_human,losing_generate_claude,2,2,Yes,losing_generate_claude,winning_human, 2, 2, 2,losing_generate_claude,winning_text,losing_generate_claude,Yes,1,3
 20,winning_human,losing_generate_gemini,2,2,Yes,losing_generate_gemini,winning_human, 1, 2, 1,winning_text,winning_text,winning_text,Yes,1,1
 20,winning_human,losing_generate_gpt4omini,2,2,Yes,losing_generate_gpt4omini,winning_human, 1, 2, 1,winning_text,winning_text,winning_text,Yes,1,1
@@ -402,6 +406,7 @@ Abstract 2 is better written"," 2
 Abstract 2 is better written",losing_paraphrase_llama,losing_text,losing_paraphrase_llama,Yes,1,3
 20,losing_human,losing_paraphrase_mistral,2,2,Yes,losing_paraphrase_mistral,losing_human, Both abstracts convey the same information and are well, Both abstracts convey the same basic information and message, Both abstracts convey similar information and are well-,Error,Error,Error,Error,1,1
 20,losing_human,losing_paraphrase_qwen,2,2,Yes,losing_paraphrase_qwen,losing_human," Both abstracts convey the same basic information, but", 1," Both abstracts convey the same basic information, but",Error,losing_paraphrase_qwen,Error,Error,1,2
+21,winning_human,losing_human,1,2,No,winning_human,winning_human,API_ERROR,API_ERROR,API_ERROR,Error,Error,Error,Error,2,0
 21,winning_human,losing_generate_claude,2,1,No,losing_generate_claude,losing_generate_claude, 1 is better written. The abstract is clear, 1, 1 is better written. The language is clear,winning_text,losing_generate_claude,winning_text,Yes,0,3
 21,winning_human,losing_generate_gpt4omini,2,1,No,losing_generate_gpt4omini,losing_generate_gpt4omini, 1, 1, 1,winning_text,losing_generate_gpt4omini,winning_text,Yes,0,3
 21,winning_human,losing_generate_gpt5nano,2,1,No,losing_generate_gpt5nano,losing_generate_gpt5nano, 1, 1, 1,winning_text,losing_generate_gpt5nano,winning_text,Yes,0,3
@@ -478,6 +483,7 @@ The second abstract is better written.", 1," 2
 Abstract 2 is better written", 2," 2
 
 Abstract 2 is better written",losing_paraphrase_qwen,losing_text,losing_paraphrase_qwen,Yes,1,3
+22,winning_human,losing_human,2,2,Yes,losing_human,winning_human,API_ERROR,API_ERROR,API_ERROR,Error,Error,Error,Error,1,1
 22,winning_human,losing_generate_claude,2,2,Yes,losing_generate_claude,winning_human, 2, 1, 2,losing_generate_claude,losing_generate_claude,losing_generate_claude,Yes,1,4
 22,winning_human,losing_generate_gemini,2,2,Yes,losing_generate_gemini,winning_human, 2, 1, 2,losing_generate_gemini,losing_generate_gemini,losing_generate_gemini,Yes,1,4
 22,winning_human,losing_generate_gpt4omini,2,2,Yes,losing_generate_gpt4omini,winning_human, 2, 1, 2,losing_generate_gpt4omini,losing_generate_gpt4omini,losing_generate_gpt4omini,Yes,1,4
@@ -557,6 +563,7 @@ Both abstracts convey the same",losing_paraphrase_gpt5nano,losing_text,losing_pa
 22,losing_human,losing_paraphrase_qwen,2,2,Yes,losing_paraphrase_qwen,losing_human, Both abstracts convey the same information and have a," 2
 The second abstract is better written."," 2
 Both abstracts convey the same",Error,losing_text,losing_paraphrase_qwen,Error,1,2
+23,winning_human,losing_human,2,2,Yes,losing_human,winning_human, 2,API_ERROR,API_ERROR,losing_human,Error,Error,Error,1,2
 23,winning_human,losing_generate_claude,2,2,Yes,losing_generate_claude,winning_human, 2, 1, 2,losing_generate_claude,losing_generate_claude,losing_generate_claude,Yes,1,4
 23,winning_human,losing_generate_gpt4omini,2,2,Yes,losing_generate_gpt4omini,winning_human, 2, 1, 2,losing_generate_gpt4omini,losing_generate_gpt4omini,losing_generate_gpt4omini,Yes,1,4
 23,winning_human,losing_generate_gpt5nano,2,2,Yes,losing_generate_gpt5nano,winning_human, 2, 1, 2,losing_generate_gpt5nano,losing_generate_gpt5nano,losing_generate_gpt5nano,Yes,1,4

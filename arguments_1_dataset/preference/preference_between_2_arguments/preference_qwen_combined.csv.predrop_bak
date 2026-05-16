@@ -1,4 +1,5 @@
 row_id,A_source,B_source,direct_answer,swapped_answer,order_influenced_decision,chosen_source_direct,chosen_source_reversed,normal1_final_answer,swapped_final_answer,normal2_final_answer,chosen_source_normal1,chosen_source_swapped,chosen_source_normal2,self_consistent,A_votes,B_votes
+4227a025,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 4227a025,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,0,4
 4227a025,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 4227a025,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -41,6 +42,7 @@ row_id,A_source,B_source,direct_answer,swapped_answer,order_influenced_decision,
 4227a025,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 4227a025,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 4227a025,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,0,5
+ba1c6225,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 ba1c6225,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 ba1c6225,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 ba1c6225,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -83,6 +85,7 @@ ba1c6225,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0
 ba1c6225,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 ba1c6225,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+4c715ae3,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 4c715ae3,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 4c715ae3,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 4c715ae3,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -125,6 +128,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 4c715ae3,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,2,0
 4c715ae3,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 4c715ae3,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+91effc2d,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 91effc2d,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 91effc2d,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 91effc2d,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -161,6 +165,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 91effc2d,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 91effc2d,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 91effc2d,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+9485765e,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 9485765e,winning_human,generate_gemini,1,1,Yes,winning_human,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 9485765e,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,2,2
 9485765e,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -203,6 +208,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 9485765e,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 9485765e,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 9485765e,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+9c7a13c6,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 9c7a13c6,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9c7a13c6,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 9c7a13c6,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -245,6 +251,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 9c7a13c6,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 9c7a13c6,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 9c7a13c6,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+9bf91405,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 9bf91405,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9bf91405,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 9bf91405,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -287,6 +294,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 9bf91405,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 9bf91405,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 9bf91405,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+96835f7a,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 96835f7a,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 96835f7a,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 96835f7a,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -323,6 +331,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 96835f7a,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 96835f7a,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 96835f7a,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+9622a2a1,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 9622a2a1,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9622a2a1,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 9622a2a1,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -359,6 +368,7 @@ ba1c6225,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 9622a2a1,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 9622a2a1,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 9622a2a1,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+a3a76a3f,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 a3a76a3f,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 a3a76a3f,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 a3a76a3f,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -395,6 +405,7 @@ a3a76a3f,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 a3a76a3f,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 a3a76a3f,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+0df62ee3,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 0df62ee3,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 0df62ee3,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,0,4
 0df62ee3,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -437,6 +448,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 0df62ee3,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 0df62ee3,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 0df62ee3,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+0fbcfb1b,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 0fbcfb1b,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 0fbcfb1b,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 0fbcfb1b,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -473,6 +485,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 0fbcfb1b,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 0fbcfb1b,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 0fbcfb1b,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+122b4142,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 122b4142,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 122b4142,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 122b4142,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -509,6 +522,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 122b4142,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 122b4142,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 122b4142,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+07fc7243,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 07fc7243,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 07fc7243,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 07fc7243,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -551,6 +565,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 07fc7243,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 07fc7243,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,2.0,2.0,paraphrase_qwen,losing_text,paraphrase_qwen,Yes,0,4
 07fc7243,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,1,4
+751ea99b,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 751ea99b,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 751ea99b,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 751ea99b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -593,6 +608,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 751ea99b,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 751ea99b,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 751ea99b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2.0,2.0,2.0,paraphrase_sonnet,losing_text,paraphrase_sonnet,Yes,1,3
+63193c03,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 63193c03,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 63193c03,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 63193c03,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -629,6 +645,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 63193c03,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 63193c03,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 63193c03,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+9a8e1e69,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 9a8e1e69,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9a8e1e69,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 9a8e1e69,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -665,6 +682,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 9a8e1e69,losing_human,paraphrase_llama,2,2,Yes,paraphrase_llama,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 9a8e1e69,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 9a8e1e69,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+5a00e12b,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 5a00e12b,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 5a00e12b,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,2,2
 5a00e12b,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt5,winning_text,generate_gpt5,Yes,2,2
@@ -707,6 +725,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 5a00e12b,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 5a00e12b,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 5a00e12b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+22d32312,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 22d32312,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,2,2
 22d32312,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 22d32312,winning_human,generate_gpt5,1,1,Yes,winning_human,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,1,4
@@ -743,6 +762,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 22d32312,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,2,3
 22d32312,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,2,3
 22d32312,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+2b948ba9,winning_human,losing_human,1,1,Yes,winning_human,losing_human,,,,,,,,1,1
 2b948ba9,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 2b948ba9,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 2b948ba9,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -779,6 +799,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 2b948ba9,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,2,3
 2b948ba9,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 2b948ba9,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+7edc4a4d,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 7edc4a4d,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 7edc4a4d,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 7edc4a4d,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -815,6 +836,7 @@ a3a76a3f,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 7edc4a4d,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,2,3
 7edc4a4d,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,2,3
 7edc4a4d,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+ae2424e0,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 ae2424e0,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 ae2424e0,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 ae2424e0,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -857,6 +879,7 @@ ae2424e0,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0
 ae2424e0,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 ae2424e0,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 ae2424e0,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+3b8f1e62,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 3b8f1e62,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 3b8f1e62,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 3b8f1e62,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -893,6 +916,7 @@ ae2424e0,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 3b8f1e62,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 3b8f1e62,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 3b8f1e62,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+12ab64a7,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 12ab64a7,winning_human,generate_gemini,1,1,Yes,winning_human,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 12ab64a7,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,2,2
 12ab64a7,winning_human,generate_gpt5,1,1,Yes,winning_human,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,1,4
@@ -929,6 +953,7 @@ ae2424e0,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 12ab64a7,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,2,0
 12ab64a7,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,2,1
 12ab64a7,losing_human,paraphrase_qwen,1,2,No,losing_human,losing_human,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,2,1
+095e5d54,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 095e5d54,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 095e5d54,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,1.0,2.0,1.0,winning_text,winning_text,winning_text,Yes,1,1
 095e5d54,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -971,6 +996,7 @@ ae2424e0,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 095e5d54,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 095e5d54,losing_human,paraphrase_qwen,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,2,3
 095e5d54,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,2.0,2.0,paraphrase_sonnet,losing_text,paraphrase_sonnet,Yes,0,4
+22ce5305,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 22ce5305,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 22ce5305,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 22ce5305,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1007,6 +1033,7 @@ ae2424e0,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 22ce5305,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 22ce5305,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 22ce5305,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+bf13d63c,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 bf13d63c,winning_human,generate_gemini,1,1,Yes,winning_human,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 bf13d63c,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 bf13d63c,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1049,6 +1076,7 @@ bf13d63c,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 bf13d63c,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 bf13d63c,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 bf13d63c,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,1,4
+6f1734f4,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 6f1734f4,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 6f1734f4,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 6f1734f4,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1085,6 +1113,7 @@ bf13d63c,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 6f1734f4,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 6f1734f4,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 6f1734f4,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+b52fc33b,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 b52fc33b,winning_human,generate_gemini,1,1,Yes,winning_human,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 b52fc33b,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,1.0,1.0,1.0,winning_text,generate_gpt4o,winning_text,Yes,2,1
 b52fc33b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1127,6 +1156,7 @@ b52fc33b,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 b52fc33b,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 b52fc33b,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 b52fc33b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+a31a106d,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 a31a106d,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 a31a106d,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 a31a106d,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1163,6 +1193,7 @@ a31a106d,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 a31a106d,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 a31a106d,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 a31a106d,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+e21b1200,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 e21b1200,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 e21b1200,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 e21b1200,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1205,6 +1236,7 @@ e21b1200,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 e21b1200,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 e21b1200,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 e21b1200,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,0,5
+a8232151,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 a8232151,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 a8232151,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 a8232151,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1247,6 +1279,7 @@ a8232151,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 a8232151,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,2,3
 a8232151,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 a8232151,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+a72d7d23,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 a72d7d23,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 a72d7d23,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 a72d7d23,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1283,6 +1316,7 @@ a72d7d23,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 a72d7d23,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 a72d7d23,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 a72d7d23,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+79eba61a,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 79eba61a,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 79eba61a,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 79eba61a,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1325,6 +1359,7 @@ a72d7d23,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 79eba61a,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 79eba61a,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
 79eba61a,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+4a58eb35,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 4a58eb35,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 4a58eb35,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 4a58eb35,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1361,6 +1396,7 @@ a72d7d23,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 4a58eb35,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,2.0,2.0,paraphrase_llama,losing_text,paraphrase_llama,Yes,1,3
 4a58eb35,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 4a58eb35,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+88c56e2b,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 88c56e2b,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 88c56e2b,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 88c56e2b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1403,6 +1439,7 @@ a72d7d23,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1
 88c56e2b,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 88c56e2b,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 88c56e2b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+b5cd6dd1,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 b5cd6dd1,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 b5cd6dd1,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 b5cd6dd1,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1445,6 +1482,7 @@ b5cd6dd1,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,1.0,
 b5cd6dd1,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 b5cd6dd1,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
 b5cd6dd1,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+f537932b,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 f537932b,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 f537932b,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 f537932b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1487,6 +1525,7 @@ f537932b,losing_human,paraphrase_llama,2,2,Yes,paraphrase_llama,losing_human,2.0
 f537932b,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 f537932b,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 f537932b,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,0,5
+ab2d1a6b,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 ab2d1a6b,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,2,2
 ab2d1a6b,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 ab2d1a6b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1523,6 +1562,7 @@ ab2d1a6b,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 ab2d1a6b,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 ab2d1a6b,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 ab2d1a6b,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+0ceb57fd,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 0ceb57fd,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,2,2
 0ceb57fd,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 0ceb57fd,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -1565,6 +1605,7 @@ ab2d1a6b,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,1.0,1
 0ceb57fd,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 0ceb57fd,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
 0ceb57fd,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+48256da8,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 48256da8,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 48256da8,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,1.0,1.0,1.0,winning_text,generate_gpt4o,winning_text,Yes,2,1
 48256da8,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -1607,6 +1648,7 @@ ab2d1a6b,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,1.0,1
 48256da8,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 48256da8,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 48256da8,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+f382b09c,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 f382b09c,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 f382b09c,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 f382b09c,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1643,6 +1685,7 @@ f382b09c,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 f382b09c,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 f382b09c,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 f382b09c,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+7a04d798,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 7a04d798,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 7a04d798,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 7a04d798,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1685,6 +1728,7 @@ f382b09c,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1
 7a04d798,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 7a04d798,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 7a04d798,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+a16e4191,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 a16e4191,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 a16e4191,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 a16e4191,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1727,6 +1771,7 @@ a16e4191,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0
 a16e4191,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 a16e4191,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 a16e4191,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+8583b03d,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 8583b03d,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 8583b03d,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 8583b03d,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1763,6 +1808,7 @@ a16e4191,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 8583b03d,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,2,3
 8583b03d,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 8583b03d,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+1fae0f40,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 1fae0f40,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,0,4
 1fae0f40,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 1fae0f40,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,2.0,2.0,generate_gpt5,winning_text,generate_gpt5,Yes,0,4
@@ -1799,6 +1845,7 @@ a16e4191,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 1fae0f40,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0,1.0,2.0,losing_text,paraphrase_llama,paraphrase_llama,No,1,3
 1fae0f40,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 1fae0f40,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+9dddcd91,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 9dddcd91,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9dddcd91,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,1,3
 9dddcd91,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1841,6 +1888,7 @@ a16e4191,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 9dddcd91,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 9dddcd91,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 9dddcd91,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+a85439b7,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 a85439b7,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 a85439b7,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 a85439b7,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1883,6 +1931,7 @@ a85439b7,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 a85439b7,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 a85439b7,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+3f295ce2,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 3f295ce2,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 3f295ce2,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 3f295ce2,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1925,6 +1974,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 3f295ce2,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,0,3
 3f295ce2,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 3f295ce2,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+6c55064a,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 6c55064a,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 6c55064a,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 6c55064a,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -1967,6 +2017,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 6c55064a,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 6c55064a,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
 6c55064a,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+66ae3765,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 66ae3765,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 66ae3765,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 66ae3765,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2003,6 +2054,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 66ae3765,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,2.0,2.0,paraphrase_llama,losing_text,paraphrase_llama,Yes,2,2
 66ae3765,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 66ae3765,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,2.0,2.0,paraphrase_qwen,losing_text,paraphrase_qwen,Yes,1,3
+8c219d22,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 8c219d22,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 8c219d22,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 8c219d22,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2039,6 +2091,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 8c219d22,losing_human,paraphrase_llama,2,2,Yes,paraphrase_llama,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 8c219d22,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 8c219d22,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+12de1f17,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 12de1f17,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 12de1f17,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 12de1f17,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2075,6 +2128,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 12de1f17,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 12de1f17,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 12de1f17,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+36883e79,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 36883e79,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 36883e79,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 36883e79,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -2111,6 +2165,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 36883e79,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,2.0,2.0,paraphrase_llama,losing_text,paraphrase_llama,Yes,2,2
 36883e79,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,2.0,2.0,paraphrase_mistral,losing_text,paraphrase_mistral,Yes,1,3
 36883e79,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,2.0,2.0,paraphrase_qwen,losing_text,paraphrase_qwen,Yes,1,3
+686562e7,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 686562e7,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 686562e7,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 686562e7,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2147,6 +2202,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 686562e7,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,1.0,1.0,1.0,losing_text,paraphrase_llama,losing_text,Yes,2,1
 686562e7,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 686562e7,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+88ab907c,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 88ab907c,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 88ab907c,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 88ab907c,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2189,6 +2245,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 88ab907c,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 88ab907c,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 88ab907c,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,0,5
+51a58170,winning_human,losing_human,1,1,Yes,winning_human,losing_human,,,,,,,,1,1
 51a58170,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 51a58170,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 51a58170,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2225,6 +2282,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 51a58170,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 51a58170,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 51a58170,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+1e3c9178,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 1e3c9178,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 1e3c9178,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 1e3c9178,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2261,6 +2319,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 1e3c9178,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,2,3
 1e3c9178,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 1e3c9178,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+286be97a,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 286be97a,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 286be97a,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,1.0,1.0,1.0,winning_text,generate_gpt4o,winning_text,Yes,0,3
 286be97a,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2297,6 +2356,7 @@ a85439b7,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 286be97a,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0,1.0,1.0,losing_text,paraphrase_llama,losing_text,Yes,1,2
 286be97a,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 286be97a,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+c9a50042,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 c9a50042,winning_human,generate_gemini,1,1,Yes,winning_human,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 c9a50042,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 c9a50042,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2339,6 +2399,7 @@ c9a50042,losing_human,paraphrase_llama,2,2,Yes,paraphrase_llama,losing_human,2.0
 c9a50042,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 c9a50042,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+1387a47d,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 1387a47d,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 1387a47d,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 1387a47d,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2375,6 +2436,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 1387a47d,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0,1.0,1.0,losing_text,paraphrase_llama,losing_text,Yes,1,2
 1387a47d,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 1387a47d,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+7c8c8b7b,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 7c8c8b7b,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 7c8c8b7b,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 7c8c8b7b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2417,6 +2479,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 7c8c8b7b,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 7c8c8b7b,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 7c8c8b7b,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+2da30a8b,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 2da30a8b,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 2da30a8b,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 2da30a8b,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -2453,6 +2516,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 2da30a8b,losing_human,paraphrase_llama,2,2,Yes,paraphrase_llama,losing_human,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 2da30a8b,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 2da30a8b,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+0e062047,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 0e062047,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 0e062047,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 0e062047,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2489,6 +2553,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 0e062047,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 0e062047,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,0,3
 0e062047,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+06ae91a0,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 06ae91a0,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 06ae91a0,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 06ae91a0,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2531,6 +2596,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 06ae91a0,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 06ae91a0,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 06ae91a0,losing_human,paraphrase_sonnet,2,2,Yes,paraphrase_sonnet,losing_human,2.0,2.0,2.0,paraphrase_sonnet,losing_text,paraphrase_sonnet,Yes,1,3
+95b82e17,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 95b82e17,winning_human,generate_gemini,2,2,Yes,generate_gemini,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 95b82e17,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 95b82e17,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2573,6 +2639,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 95b82e17,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 95b82e17,losing_human,paraphrase_qwen,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,2,3
 95b82e17,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+979e3d60,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 979e3d60,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 979e3d60,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 979e3d60,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2615,6 +2682,7 @@ c9a50042,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 979e3d60,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 979e3d60,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 979e3d60,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+eb8e37f7,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 eb8e37f7,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 eb8e37f7,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 eb8e37f7,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2651,6 +2719,7 @@ eb8e37f7,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 eb8e37f7,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,2.0,2.0,paraphrase_llama,losing_text,paraphrase_llama,Yes,2,2
 eb8e37f7,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 eb8e37f7,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+391d21ca,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 391d21ca,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 391d21ca,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 391d21ca,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2687,6 +2756,7 @@ eb8e37f7,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0
 391d21ca,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 391d21ca,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 391d21ca,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+46174ef1,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 46174ef1,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 46174ef1,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 46174ef1,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2729,6 +2799,7 @@ eb8e37f7,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0
 46174ef1,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 46174ef1,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 46174ef1,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+941ed928,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 941ed928,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 941ed928,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 941ed928,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2771,6 +2842,7 @@ eb8e37f7,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0
 941ed928,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 941ed928,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 941ed928,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+f7e353a2,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 f7e353a2,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 f7e353a2,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 f7e353a2,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2807,6 +2879,7 @@ f7e353a2,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 f7e353a2,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 f7e353a2,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,2,3
 f7e353a2,losing_human,paraphrase_qwen,1,2,No,losing_human,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,2,3
+5a5b4e62,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 5a5b4e62,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 5a5b4e62,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 5a5b4e62,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2849,6 +2922,7 @@ f7e353a2,losing_human,paraphrase_qwen,1,2,No,losing_human,losing_human,2.0,1.0,2
 5a5b4e62,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 5a5b4e62,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 5a5b4e62,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+9d570786,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 9d570786,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9d570786,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 9d570786,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt5,winning_text,generate_gpt5,Yes,2,2
@@ -2885,6 +2959,7 @@ f7e353a2,losing_human,paraphrase_qwen,1,2,No,losing_human,losing_human,2.0,1.0,2
 9d570786,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0,1.0,1.0,losing_text,paraphrase_llama,losing_text,Yes,1,2
 9d570786,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 9d570786,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+ea5450c9,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 ea5450c9,winning_human,generate_gemini,1,2,No,winning_human,winning_human,1.0,1.0,1.0,winning_text,generate_gemini,winning_text,Yes,2,1
 ea5450c9,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 ea5450c9,winning_human,generate_gpt5,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,2,3
@@ -2927,6 +3002,7 @@ ea5450c9,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0
 ea5450c9,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 ea5450c9,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 ea5450c9,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2.0,2.0,2.0,paraphrase_sonnet,losing_text,paraphrase_sonnet,Yes,1,3
+5c31a840,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 5c31a840,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 5c31a840,winning_human,generate_gpt4o,2,2,Yes,generate_gpt4o,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 5c31a840,winning_human,generate_gpt5,2,2,Yes,generate_gpt5,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,1,4
@@ -2963,6 +3039,7 @@ ea5450c9,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 5c31a840,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 5c31a840,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,1.0,paraphrase_mistral,paraphrase_mistral,losing_text,No,1,3
 5c31a840,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+70faddee,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 70faddee,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 70faddee,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 70faddee,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -2999,6 +3076,7 @@ ea5450c9,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 70faddee,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 70faddee,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 70faddee,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+49b38ef1,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 49b38ef1,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 49b38ef1,winning_human,generate_gpt4o,2,2,Yes,generate_gpt4o,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 49b38ef1,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3041,6 +3119,7 @@ ea5450c9,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 49b38ef1,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 49b38ef1,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 49b38ef1,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,0,5
+b19d6876,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 b19d6876,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 b19d6876,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 b19d6876,winning_human,generate_gpt5,1,1,Yes,winning_human,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,1,4
@@ -3077,6 +3156,7 @@ b19d6876,losing_human,paraphrase_gpt5,1,1,Yes,losing_human,paraphrase_gpt5,1.0,1
 b19d6876,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0,1.0,1.0,losing_text,paraphrase_llama,losing_text,Yes,1,2
 b19d6876,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 b19d6876,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+bc9a4105,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 bc9a4105,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 bc9a4105,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 bc9a4105,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3113,6 +3193,7 @@ bc9a4105,losing_human,paraphrase_gpt5,2,2,Yes,paraphrase_gpt5,losing_human,2.0,1
 bc9a4105,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 bc9a4105,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 bc9a4105,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+d3a943d4,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 d3a943d4,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 d3a943d4,winning_human,generate_gpt4o,2,2,Yes,generate_gpt4o,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 d3a943d4,winning_human,generate_gpt5,2,2,Yes,generate_gpt5,winning_human,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,1,4
@@ -3155,6 +3236,7 @@ d3a943d4,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 d3a943d4,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 d3a943d4,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 d3a943d4,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+800d8d27,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 800d8d27,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 800d8d27,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 800d8d27,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3197,6 +3279,7 @@ d3a943d4,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 800d8d27,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 800d8d27,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
 800d8d27,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,1,1
+b5f37de3,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 b5f37de3,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 b5f37de3,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 b5f37de3,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3233,6 +3316,7 @@ b5f37de3,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 b5f37de3,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 b5f37de3,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 b5f37de3,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+d432291d,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 d432291d,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 d432291d,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 d432291d,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3269,6 +3353,7 @@ d432291d,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 d432291d,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,2.0,2.0,paraphrase_llama,losing_text,paraphrase_llama,Yes,1,3
 d432291d,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 d432291d,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+312ab35f,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 312ab35f,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,2,2
 312ab35f,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,2,2
 312ab35f,winning_human,generate_gpt5,2,2,Yes,generate_gpt5,winning_human,2.0,2.0,2.0,generate_gpt5,winning_text,generate_gpt5,Yes,1,3
@@ -3311,6 +3396,7 @@ d432291d,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0
 312ab35f,losing_human,paraphrase_mistral,2,2,Yes,paraphrase_mistral,losing_human,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 312ab35f,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
 312ab35f,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,0,5
+e4999e00,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 e4999e00,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 e4999e00,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 e4999e00,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3353,6 +3439,7 @@ e4999e00,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0
 e4999e00,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 e4999e00,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 e4999e00,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,1,4
+37222683,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 37222683,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,2,2
 37222683,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,2,2
 37222683,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3389,6 +3476,7 @@ e4999e00,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 37222683,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,2,0
 37222683,losing_human,paraphrase_mistral,1,2,No,losing_human,losing_human,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,2,1
 37222683,losing_human,paraphrase_qwen,2,2,Yes,paraphrase_qwen,losing_human,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+46868ba9,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 46868ba9,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 46868ba9,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 46868ba9,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3431,6 +3519,7 @@ e4999e00,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 46868ba9,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 46868ba9,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 46868ba9,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,0,2
+7a1f9969,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 7a1f9969,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 7a1f9969,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 7a1f9969,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3467,6 +3556,7 @@ e4999e00,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2
 7a1f9969,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,1.0,1.0,1.0,losing_text,paraphrase_llama,losing_text,Yes,1,2
 7a1f9969,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,0,3
 7a1f9969,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+b06b0f7c,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 b06b0f7c,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 b06b0f7c,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 b06b0f7c,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3503,6 +3593,7 @@ b06b0f7c,losing_human,paraphrase_gpt5,2,1,No,paraphrase_gpt5,paraphrase_gpt5,2.0
 b06b0f7c,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 b06b0f7c,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 b06b0f7c,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
+a5af4c1b,winning_human,losing_human,1,1,Yes,winning_human,losing_human,,,,,,,,1,1
 a5af4c1b,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 a5af4c1b,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 a5af4c1b,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3545,6 +3636,7 @@ a5af4c1b,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 a5af4c1b,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 a5af4c1b,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,2.0,2.0,paraphrase_qwen,losing_text,paraphrase_qwen,Yes,1,3
 a5af4c1b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,1,1
+8ed8a295,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 8ed8a295,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,0,4
 8ed8a295,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 8ed8a295,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3587,6 +3679,7 @@ a5af4c1b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 8ed8a295,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 8ed8a295,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,2.0,2.0,paraphrase_qwen,losing_text,paraphrase_qwen,Yes,1,3
 8ed8a295,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,2.0,1.0,2.0,paraphrase_sonnet,paraphrase_sonnet,paraphrase_sonnet,Yes,1,4
+3e87b0e6,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 3e87b0e6,winning_human,generate_gemini,2,2,Yes,generate_gemini,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,1,4
 3e87b0e6,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 3e87b0e6,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3629,6 +3722,7 @@ a5af4c1b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 3e87b0e6,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,0,5
 3e87b0e6,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,2.0,1.0,losing_text,losing_text,losing_text,Yes,0,2
 3e87b0e6,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+70cced51,winning_human,losing_human,2,2,Yes,losing_human,winning_human,,,,,,,,1,1
 70cced51,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 70cced51,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 70cced51,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3665,6 +3759,7 @@ a5af4c1b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 70cced51,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 70cced51,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,0,3
 70cced51,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+27bc4347,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 27bc4347,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,2,3
 27bc4347,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 27bc4347,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3707,6 +3802,7 @@ a5af4c1b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 27bc4347,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 27bc4347,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
 27bc4347,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+02595c96,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 02595c96,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 02595c96,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 02595c96,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3743,6 +3839,7 @@ a5af4c1b,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 02595c96,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 02595c96,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 02595c96,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,1,2
+f8ce3df4,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 f8ce3df4,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 f8ce3df4,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 f8ce3df4,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3785,6 +3882,7 @@ f8ce3df4,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 f8ce3df4,losing_human,paraphrase_mistral,2,1,No,paraphrase_mistral,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,0,3
 f8ce3df4,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,1.0,1.0,1.0,losing_text,paraphrase_qwen,losing_text,Yes,0,3
 f8ce3df4,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+56f4ccf5,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 56f4ccf5,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 56f4ccf5,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 56f4ccf5,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3821,6 +3919,7 @@ f8ce3df4,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1
 56f4ccf5,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 56f4ccf5,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 56f4ccf5,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+f56ad226,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 f56ad226,winning_human,generate_gemini,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gemini,winning_text,generate_gemini,Yes,2,2
 f56ad226,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,1.0,1.0,1.0,winning_text,generate_gpt4o,winning_text,Yes,2,1
 f56ad226,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3863,6 +3962,7 @@ f56ad226,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,
 f56ad226,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,1.0,paraphrase_mistral,paraphrase_mistral,losing_text,No,1,3
 f56ad226,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 f56ad226,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,0,3
+9cda9586,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 9cda9586,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 9cda9586,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 9cda9586,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3899,6 +3999,7 @@ f56ad226,losing_human,paraphrase_sonnet,2,1,No,paraphrase_sonnet,paraphrase_sonn
 9cda9586,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,1.0,paraphrase_llama,paraphrase_llama,losing_text,No,1,3
 9cda9586,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,1.0,1.0,1.0,losing_text,paraphrase_mistral,losing_text,Yes,1,2
 9cda9586,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+fd1377a9,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 fd1377a9,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 fd1377a9,winning_human,generate_gpt4o,1,1,Yes,winning_human,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,1,4
 fd1377a9,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3935,6 +4036,7 @@ fd1377a9,losing_human,paraphrase_gpt5,1,2,No,losing_human,losing_human,2.0,1.0,2
 fd1377a9,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 fd1377a9,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 fd1377a9,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+8cd411cf,winning_human,losing_human,1,1,Yes,winning_human,losing_human,,,,,,,,1,1
 8cd411cf,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 8cd411cf,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,2,3
 8cd411cf,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -3971,6 +4073,7 @@ fd1377a9,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1
 8cd411cf,losing_human,paraphrase_llama,2,1,No,paraphrase_llama,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,0,5
 8cd411cf,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 8cd411cf,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
+7291f128,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 7291f128,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 7291f128,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 7291f128,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -4013,6 +4116,7 @@ fd1377a9,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1
 7291f128,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 7291f128,losing_human,paraphrase_qwen,2,1,No,paraphrase_qwen,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,0,5
 7291f128,losing_human,paraphrase_sonnet,1,1,Yes,losing_human,paraphrase_sonnet,1.0,1.0,1.0,losing_text,paraphrase_sonnet,losing_text,Yes,1,2
+f50135e8,winning_human,losing_human,2,1,No,losing_human,losing_human,,,,,,,,0,2
 f50135e8,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 f50135e8,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 f50135e8,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5
@@ -4049,6 +4153,7 @@ f50135e8,losing_human,paraphrase_gpt5,1,1,Yes,losing_human,paraphrase_gpt5,2.0,1
 f50135e8,losing_human,paraphrase_llama,1,1,Yes,losing_human,paraphrase_llama,2.0,1.0,2.0,paraphrase_llama,paraphrase_llama,paraphrase_llama,Yes,1,4
 f50135e8,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 f50135e8,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+6359cd9c,winning_human,losing_human,1,1,Yes,winning_human,losing_human,,,,,,,,1,1
 6359cd9c,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 6359cd9c,winning_human,generate_gpt4o,1,2,No,winning_human,winning_human,2.0,2.0,2.0,generate_gpt4o,winning_text,generate_gpt4o,Yes,2,2
 6359cd9c,winning_human,generate_gpt5,1,1,Yes,winning_human,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,1,4
@@ -4085,6 +4190,7 @@ f50135e8,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1
 6359cd9c,losing_human,paraphrase_llama,1,2,No,losing_human,losing_human,2.0,2.0,2.0,paraphrase_llama,losing_text,paraphrase_llama,Yes,2,2
 6359cd9c,losing_human,paraphrase_mistral,1,1,Yes,losing_human,paraphrase_mistral,2.0,1.0,2.0,paraphrase_mistral,paraphrase_mistral,paraphrase_mistral,Yes,1,4
 6359cd9c,losing_human,paraphrase_qwen,1,1,Yes,losing_human,paraphrase_qwen,2.0,1.0,2.0,paraphrase_qwen,paraphrase_qwen,paraphrase_qwen,Yes,1,4
+f5e432b9,winning_human,losing_human,1,2,No,winning_human,winning_human,,,,,,,,2,0
 f5e432b9,winning_human,generate_gemini,2,1,No,generate_gemini,generate_gemini,2.0,1.0,2.0,generate_gemini,generate_gemini,generate_gemini,Yes,0,5
 f5e432b9,winning_human,generate_gpt4o,2,1,No,generate_gpt4o,generate_gpt4o,2.0,1.0,2.0,generate_gpt4o,generate_gpt4o,generate_gpt4o,Yes,0,5
 f5e432b9,winning_human,generate_gpt5,2,1,No,generate_gpt5,generate_gpt5,2.0,1.0,2.0,generate_gpt5,generate_gpt5,generate_gpt5,Yes,0,5

@@ -435,6 +435,7 @@ Assistant: Assistant",1,2,Error,losing_generate_gpt4omini,losing_generate_gpt4om
 29,winning_text,losing_generate_claude,2,1,No,NEJMoa1404037,losing_generate_claude,losing_generate_claude,2,1,2,losing_generate_claude,losing_generate_claude,losing_generate_claude,Yes,0,5
 29,winning_text,losing_generate_gemini,2,1,No,NEJMoa1404037,losing_generate_gemini,losing_generate_gemini,2,1,2,losing_generate_gemini,losing_generate_gemini,losing_generate_gemini,Yes,0,5
 29,winning_text,losing_generate_gpt4omini,2,1,No,NEJMoa1404037,losing_generate_gpt4omini,losing_generate_gpt4omini,2,1,2,losing_generate_gpt4omini,losing_generate_gpt4omini,losing_generate_gpt4omini,Yes,0,5
+29,winning_text,losing_generate_gpt5nano,2,1,No,NEJMoa1404037,losing_generate_gpt5nano,losing_generate_gpt5nano,2,1,PARSE_ERROR,losing_generate_gpt5nano,losing_generate_gpt5nano,Error,Error,0,4
 29,winning_text,losing_generate_llama,2,1,No,NEJMoa1404037,losing_generate_llama,losing_generate_llama,2,1,2,losing_generate_llama,losing_generate_llama,losing_generate_llama,Yes,0,5
 29,winning_text,losing_generate_mistral,2,2,Yes,NEJMoa1404037,losing_generate_mistral,winning_text,2,2,2,losing_generate_mistral,winning_text,losing_generate_mistral,Yes,2,3
 29,winning_text,losing_generate_qwen,2,1,No,NEJMoa1404037,losing_generate_qwen,losing_generate_qwen,2,1,2,losing_generate_qwen,losing_generate_qwen,losing_generate_qwen,Yes,0,5
@@ -9767,6 +9768,7 @@ Let me analyze both versions:",losing_improve_gpt5nano,losing_improve_gpt5nano,E
 294,losing_text,losing_generate_claude,2,1,No,NEJMoa1206809,losing_generate_claude,losing_generate_claude,2,1,2,losing_generate_claude,losing_generate_claude,losing_generate_claude,Yes,0,5
 294,losing_text,losing_generate_gemini,2,1,No,NEJMoa1206809,losing_generate_gemini,losing_generate_gemini,2,1,2,losing_generate_gemini,losing_generate_gemini,losing_generate_gemini,Yes,0,5
 294,losing_text,losing_generate_gpt4omini,2,1,No,NEJMoa1206809,losing_generate_gpt4omini,losing_generate_gpt4omini,2,1,2,losing_generate_gpt4omini,losing_generate_gpt4omini,losing_generate_gpt4omini,Yes,0,5
+294,losing_text,losing_generate_gpt5nano,2,1,No,NEJMoa1206809,losing_generate_gpt5nano,losing_generate_gpt5nano,2,PARSE_ERROR,2,losing_generate_gpt5nano,Error,losing_generate_gpt5nano,Error,0,4
 294,losing_text,losing_generate_llama,2,2,Yes,NEJMoa1206809,losing_generate_llama,losing_text,2,2,2,losing_generate_llama,losing_text,losing_generate_llama,Yes,2,3
 294,losing_text,losing_generate_mistral,2,1,No,NEJMoa1206809,losing_generate_mistral,losing_generate_mistral,2,1,2,losing_generate_mistral,losing_generate_mistral,losing_generate_mistral,Yes,0,5
 294,losing_text,losing_generate_qwen,2,1,No,NEJMoa1206809,losing_generate_qwen,losing_generate_qwen,2,1,2,losing_generate_qwen,losing_generate_qwen,losing_generate_qwen,Yes,0,5
